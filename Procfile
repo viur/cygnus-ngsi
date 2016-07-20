@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.telefonica.iot.cygnus.nodes.CygnusApplication -p 8081 -f ./conf/agent_viur.conf -n cygnusagent
